@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Warp&display=swap" rel="stylesheet" />
+        <!-- external css -->
+        <link rel="stylesheet" href="styles.css" />
+        <title>Dice Game</title>
+    </head>
+    <body>
+        <img src="flag.png" class="p1flag hidden" alt="red flag" />
+        <h1 id="result">🚩 PRESS THE BUTTON 🚩</h1>
+        <img src="flag.png" class="p2flag hidden" alt="red flag" />
+        <button class="btn" onclick="roll();">Roll The Dice!</button>
+
+        <div id="player1">
+            <h3>Player 1</h3>
+            <div class="dice">
+                <div class="position1"></div>
+                <div class="dot position2"></div>
+                <div class="dot position3"></div>
+                <div class="dot position4"></div>
+                <div class="dot position5"></div>
+                <div class="dot position6"></div>
+                <div class="dot position7"></div>
+            </div>
+        </div>
+        <div id="player2">
+            <h3>Player 2</h3>
+            <div class="dice">
+                <div class="position1"></div>
+                <div class="dot position2"></div>
+                <div class="dot position3"></div>
+                <div class="dot position4"></div>
+                <div class="dot position5"></div>
+                <div class="dot position6"></div>
+                <div class="dot position7"></div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <p>Dice Game Developed by Muflih</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+/* tag selectors */
+
+body {
+    text-align: center;
+    background-color: #393e46;
+    color: darkseagreen;
+    font-family: "Poppins", sans-serif;
+    padding: 3%;
+}
+
+h1 {
+    font-family: "Tilt Warp", cursive;
+    font-size: 3rem;
+    text-shadow: 3px 3px black;
+    display: inline-block;
+}
+
+/* id selectors */
+
+#player1 {
+    display: inline-block;
+    margin-right: 25px;
+}
+#player2 {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* class selectors */
+
+.p1flag,
+.p2flag {
+    width: 100px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #1178b8);
+    background-image: -moz-linear-gradient(top, #3498db, #1178b8);
+    background-image: -ms-linear-gradient(top, #3498db, #1178b8);
+    background-image: -o-linear-gradient(top, #3498db, #1178b8);
+    background-image: linear-gradient(to bottom, #3498db, #1178b8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.dice {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: darkred;
+    margin: auto;
+    position: relative;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.dot {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+
+.position1 {
+    top: 75px;
+    left: 75px;
+}
+
+.position2 {
+    top: 20px;
+    right: 20px;
+}
+.position3 {
+    top: 20px;
+    left: 20px;
+}
+.position4 {
+    bottom: 20px;
+    right: 20px;
+}
+.position5 {
+    bottom: 20px;
+    left: 20px;
+}
+.position6 {
+    top: 75px;
+    right: 20px;
+}
+.position7 {
+    top: 75px;
+    left: 20px;
+}
